@@ -15,6 +15,8 @@ This software uses a tweaked version of the OpenJDK 6 scanner class.
 Example
 -------
 
+The software packaged together with the source is available as ready made
+JAR in this directory.
 If you want to look at what this does run Saxon HE
 (or another edition if you like) net.sf.saxon.Query with the parameters
 -init:net.homeunix.siam.wordmarker.AddWordMarkerFunction -q:test0.xquery
