@@ -5,7 +5,7 @@ declare option saxon:output "method=xml";
 declare option saxon:output "indent=yes";
 
 let $validWordChars := "[\u0600-\u06FF]+"
-let $allPossibleDelimiters := "[) ]?(?:(?:&amp;gt)|(?:&amp;amp)|(?:[,.%](?!\d))|[-\u2013|()\{\}\[\]'&quot;\u201c\u201d#&amp;/*;:?\u061F!\u060C\s\u200F])+"
+let $allPossibleDelimiters := "[) ]?(?:(?:&amp;lt)|(?:&amp;gt)|(?:&amp;amp)|(?:[,.%](?!\d))|[-\u06D4\u2013\u2014=|()\{\}\[\]<>\u27E8\u27E9'\u2018\u2019&quot;\u2039\u203A\u201c\u201d#&amp;/*\u2022;:?\u061F!\u060C\s\u200F\u202E\u202C\u200D])+"
 
 for $i in (1,2,3)
 return
